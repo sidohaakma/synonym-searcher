@@ -11,6 +11,14 @@
 	<name>synonym-searcher</name>
 	<description>Demo project for Spring Boot</description>
 
+	<repositories>
+		<!-- EBI repo -->
+		<repository>
+			<id>nexus-ebi-release-repo</id>
+			<url>http://www.ebi.ac.uk/Tools/maven/repos/content/groups/ebi-repo/</url>
+		</repository>
+	</repositories>
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -28,6 +36,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>uk.ac.ebi.pride.utilities</groupId>
+			<artifactId>ols-client</artifactId>
+			<version>2.11</version>
 		</dependency>
 
 		<dependency>
