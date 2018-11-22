@@ -5,6 +5,10 @@ public class OntologyTerm {
   private String code;
   private String term;
 
+  public OntologyTerm(String code, String term) {
+    this.code = code;
+    this.term = term;
+  }
 
   public String getCode() {
     return code;

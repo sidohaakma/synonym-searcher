@@ -8,6 +8,11 @@ public class Ontology {
   private String ontologyVersion;
   private List<OntologyTerm> ontologyResults;
 
+  public Ontology(String ontology, String ontologyVersion, List<OntologyTerm> ontologyResults) {
+    this.ontology = ontology;
+    this.ontologyVersion = ontologyVersion;
+    this.ontologyResults = ontologyResults;
+  }
 
   public String getOntology() {
     return ontology;

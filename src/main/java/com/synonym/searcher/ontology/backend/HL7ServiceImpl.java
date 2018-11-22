@@ -16,8 +16,11 @@ public class HL7ServiceImpl implements OntologyService {
   private List<Ontology> generateOntologies() {
 
 
-    Ontology ontology = new Ontology();
-    OntologyTerm ontologyTerm = new OntologyTerm();
+    // TODO consume HL7
+
+    // TODO compile ontology results
+    Ontology ontology = new Ontology(null, null, null);
+    OntologyTerm ontologyTerm = new OntologyTerm(null, null);
     List<OntologyTerm> ontologyTerms = new ArrayList<>();
     ontology.setOntologyResults(ontologyTerms);
     List<Ontology> ontologies = new ArrayList<>();
