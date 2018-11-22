@@ -1,0 +1,52 @@
+{
+    "searchResults": [
+        {
+            "ontology": "SNOMED-CT",
+            "ontologyVersion": "25",
+            "ontologyResults": [
+                {
+                    "code": "363358000",
+                    "term": "Malignant tumor of lung"
+                },
+                {
+                    "code": "92649001",
+                    "term": "Carcinoma in situ of lung"
+                }
+            ]
+        },
+        {
+            "ontology": "ICD",
+            "ontologyVersion": "10",
+            "ontologyResults": [
+                {
+                    "code": "C34",
+                    "term": "Malignant neoplasm of bronchus and lung"
+                },
+                {
+                    "code": "C34.0",
+                    "term": "Malignant neoplasm of bronchus and lung - Main bronchus"
+                },
+                {
+                    "code": "C34.1",
+                    "term": "Malignant neoplasm of bronchus and lung - Upper lobe, bronchus or lung"
+                },
+                {
+                    "code": "C34.2",
+                    "term": "Malignant neoplasm of bronchus and lung - Middle lobe, bronchus or lung"
+                },
+                {
+                    "code": "C34.3",
+                    "term": "Malignant neoplasm of bronchus and lung - Lower lobe, bronchus or lung"
+                },
+                {
+                    "code": "C34.8",
+                    "term": "Malignant neoplasm of bronchus and lung - Overlapping lesion of bronchus and lung"
+                },
+                {
+                    "code": "C34.9",
+                    "term": "Malignant neoplasm of bronchus and lung - Bronchus or lung, unspecified"
+                }
+            ]
+        }
+    ]
+}
