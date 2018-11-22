@@ -1,14 +1,16 @@
 package com.synonym.searcher.synonymsearcher.entities;
 
+import java.util.List;
+
 public class SearchResult {
 
     private final String ontology;
     private final String ontologyVersion;
-    private final OntologyResult[] ontologyResults;
+    private final List<OntologyResult> ontologyResults;
 
     public SearchResult(String ontology,
                         String ontologyVersion,
-                        OntologyResult[] ontologyResults) {
+                        List<OntologyResult> ontologyResults) {
         this.ontology = ontology;
         this.ontologyVersion = ontologyVersion;
         this.ontologyResults = ontologyResults;
@@ -22,7 +24,7 @@ public class SearchResult {
         return ontologyVersion;
     }
 
-    public OntologyResult[] getOntologyResults() {
+    public List<OntologyResult> getOntologyResults() {
         return ontologyResults;
     }
 }
