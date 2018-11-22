@@ -12,6 +12,7 @@ import java.util.List;
 @RestController
 public class SearchController {
 
+    // TODO consider taking ontologies/ontology versions in params rather than querying all ontologies all the time
     @RequestMapping("/search")
     public List<SearchResult> search(@RequestParam(value="searchTerm", defaultValue="%") String searchTerm) {
         // TODO replace with real logic for getting the results from aggregator

@@ -1,5 +1,6 @@
 package com.synonym.searcher.synonymsearcher.entities;
 
+// TODO consider adding a 'match %' field and ordering by these in results
 public class OntologyResult {
 
     private final String code;
